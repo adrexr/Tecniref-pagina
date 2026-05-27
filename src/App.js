@@ -172,8 +172,7 @@ export default function App() {
                           className="h-12 md:h-16 w-auto object-contain filter grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                         />
                       </div>
-                      <span className="mt-4 text-[10px] font-black text-[#5B6770] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
-                        Verified Partner
+                      <span className="mt-4 text-[10px] font-black text-[#5B6770] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">       
                       </span>
                     </div>
                   ))}

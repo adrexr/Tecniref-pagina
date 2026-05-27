@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="p-3 bg-white/5 rounded-full group-hover:bg-[#00AEEF]/20 transition-colors">
               <Mail className="w-6 h-6 text-[#00AEEF]" />
             </div>
-            <span className="font-bold tracking-widest">gerencia@tecniref.com</span>
+            <span className="font-bold tracking-widest">gerenciatecniref@gmail.com</span>
           </div>
           <div className="flex items-center justify-center md:justify-start space-x-3 group">
             <div className="p-3 bg-white/5 rounded-full group-hover:bg-[#00AEEF]/20 transition-colors">
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-white/5 pt-8 text-center">
-          <p className="text-gray-500 font-bold uppercase tracking-[0.3em] text-sm italic">&copy; {new Date().getFullYear()} TECNIREF S.A.S | INDUSTRIAL COLD ENGINEERING</p>
+          <p className="text-gray-500 font-bold uppercase tracking-[0.3em] text-sm italic">&copy; {new Date().getFullYear()} TECNIREF S.A.S</p>
         </div>
       </div>
     </motion.footer>
