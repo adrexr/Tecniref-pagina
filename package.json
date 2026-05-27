@@ -1,7 +1,7 @@
 {
       "name": "mi-proyecto-react",
       "engines": {
-            "node": ">=18.0.0"
+            "node": "18.x"
       },
       "scripts": {
             "start": "react-scripts start", 
