@@ -57,11 +57,20 @@ export default function App() {
         <section id="inicio" className="relative bg-[#0F4C81] text-white py-20 md:py-32 overflow-hidden">
           <div className="absolute inset-0 opacity-20 bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1583912277729-c15917a61d7f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)' }}></div>
           <div className="container mx-auto text-center relative z-10 px-4">
+            <motion.h1
+              initial={{ opacity: 0, y: -30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-6xl md:text-9xl font-black mb-6 tracking-tighter uppercase text-glow-premium leading-none"
+            >
+              TECNIREF
+            </motion.h1>
+
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight text-white"
+              className="text-2xl md:text-4xl font-bold mb-4 leading-tight text-white/90"
             >
               Soluciones integrales en refrigeración industrial y climatización.
             </motion.h2>
