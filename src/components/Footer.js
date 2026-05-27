@@ -8,24 +8,32 @@ const Footer = () => {
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: 'spring', stiffness: 120, damping: 14, delay: 0.6 }}
-      className="bg-gray-800 text-white p-8 mt-12"
+      className="bg-[#1C1C1C] text-white p-12 border-t border-white/5"
     >
-      <div className="container mx-auto text-center">
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mb-6">
-          <div className="flex items-center space-x-2">
-            <Phone className="w-5 h-5" />
-            <span>+57 3215391163</span>
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mb-12">
+          <div className="flex items-center justify-center md:justify-start space-x-3 group">
+            <div className="p-3 bg-white/5 rounded-full group-hover:bg-[#00AEEF]/20 transition-colors">
+              <Phone className="w-6 h-6 text-[#00AEEF]" />
+            </div>
+            <span className="font-bold tracking-widest">+57 321 539 1163</span>
           </div>
-          <div className="flex items-center space-x-2">
-            <Mail className="w-5 h-5" />
-            <span>gerenciatecniref@gmail.com</span>
+          <div className="flex items-center justify-center md:justify-start space-x-3 group">
+            <div className="p-3 bg-white/5 rounded-full group-hover:bg-[#00AEEF]/20 transition-colors">
+              <Mail className="w-6 h-6 text-[#00AEEF]" />
+            </div>
+            <span className="font-bold tracking-widest">gerencia@tecniref.com</span>
           </div>
-          <div className="flex items-center space-x-2">
-            <MapPin className="w-5 h-5" />
-            <span>Calle 19B N°6ª-40 Kennedy</span>
+          <div className="flex items-center justify-center md:justify-start space-x-3 group">
+            <div className="p-3 bg-white/5 rounded-full group-hover:bg-[#00AEEF]/20 transition-colors">
+              <MapPin className="w-6 h-6 text-[#00AEEF]" />
+            </div>
+            <span className="font-bold tracking-widest uppercase">Valledupar, Colombia</span>
           </div>
         </div>
-        <p className="text-gray-400">&copy; {new Date().getFullYear()} Tecniref. Todos los derechos reservados.</p>
+        <div className="border-t border-white/5 pt-8 text-center">
+          <p className="text-gray-500 font-bold uppercase tracking-[0.3em] text-sm italic">&copy; {new Date().getFullYear()} TECNIREF S.A.S | INDUSTRIAL COLD ENGINEERING</p>
+        </div>
       </div>
     </motion.footer>
   );

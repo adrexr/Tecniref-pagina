@@ -8,17 +8,17 @@ const Header = () => {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: 'spring', stiffness: 120, damping: 14, delay: 0.2 }}
-      className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4 shadow-lg"
+      className="glass-morphism border-b border-[#00AEEF]/20 text-[#0F4C81] p-4 sticky top-0 z-50"
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-3">
-          <img src="https://utfs.io/f/2vMRHqOYUHc0mkZlZxTfIJbfOXQWPgDwNtHSspUETxakjAG2" alt="Tecniref Logo" className="h-12 w-12 rounded-full object-cover" />
-          <h1 className="text-3xl font-bold">Tecniref</h1>
+          <img src="https://utfs.io/f/2vMRHqOYUHc0mkZlZxTfIJbfOXQWPgDwNtHSspUETxakjAG2" alt="Tecniref Logo" className="h-10 w-10 rounded-lg object-cover shadow-lg border border-[#00AEEF]/30" />
+          <h1 className="text-2xl font-extrabold tracking-tighter uppercase italic">Tecni<span className="text-[#00AEEF]">ref</span></h1>
         </div>
         <nav className="hidden md:flex space-x-6">
-          <a href="#inicio" className="hover:text-blue-200 transition duration-300">Inicio</a>
-          <a href="#servicios" className="hover:text-blue-200 transition duration-300">Servicios</a>
-          <a href="#contacto" className="hover:text-blue-200 transition duration-300">Contacto</a>
+          <a href="#inicio" className="font-bold hover:text-[#00AEEF] transition-all hover:neon-text-blue">Inicio</a>
+          <a href="#servicios" className="font-bold hover:text-[#00AEEF] transition-all hover:neon-text-blue">Servicios</a>
+          <a href="#contacto" className="font-bold hover:text-[#00AEEF] transition-all hover:neon-text-blue">Contacto</a>
         </nav>
         <div className="md:hidden">
           <Menu className="w-8 h-8 cursor-pointer" />
