@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-white/5 pt-8 text-center">
-          <p className="text-gray-500 font-bold uppercase tracking-[0.3em] text-sm italic">&copy; {new Date().getFullYear()} TECNIREF S.A.S</p>
+          <p className="text-gray-500 font-bold uppercase tracking-[0.3em] text-sm italic">&copy; {new .getFullYear()} TECNIREF S.A.S</p>
         </div>
       </div>
     </motion.footer>
