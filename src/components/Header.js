@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Menu, Phone, Mail } from 'lucide-react';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.png'; // Verificado: ruta relativa correcta desde src/components
 
 const Header = () => {
   return (
