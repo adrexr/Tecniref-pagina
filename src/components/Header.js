@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Menu, Phone, Mail } from 'lucide-react';
-import logo from '../assets/logo.png'; // Verificado: ruta relativa correcta desde src/components
 
 const Header = () => {
   return (
@@ -18,7 +17,7 @@ const Header = () => {
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="flex items-center space-x-3"
           >
-            <img src={logo} alt="TECNIREF Logo" className="h-12 w-auto object-contain drop-shadow-md" />
+            <img src="/logo.png" alt="TECNIREF Logo" className="h-12 w-auto object-contain drop-shadow-md" />
             <h1 className="text-2xl font-extrabold tracking-tighter uppercase italic transition-colors duration-300 group-hover:text-[#00AEEF]">
               Tecni<span className="text-[#00AEEF] group-hover:text-[#0F4C81]">ref</span>
             </h1>
