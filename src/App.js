@@ -36,7 +36,7 @@ export default function App() {
   };
 
   const logos = [
-    { name: 'COLANTA', url: 'https://cooptalentum.coop/wp-content/uploads/2021/07/colanta-sin-fondo-01-e1633556457140.png' },
+    { name: 'COLANTA', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6SZzXOHESFQYZeWXGZ9IqFrSEu3qZb_sbw&s' },
     { name: 'HIELO EL ESQUIMAL', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCiG5HrYPqjQvn8k4pyRKxk5y6oLWaUN6jUw&s' },
     { name: 'INDULACTEOS DE COLOMBIA', url: 'https://media.licdn.com/dms/image/v2/C560BAQEvo72BdwnhWg/company-logo_200_200/company-logo_200_200/0/1631371113736?e=2147483647&v=beta&t=N3Qr4Uv44grRyVxjj_4E_0enP7yOStW8mZms_V-MhW8' },
     { name: 'DISTRIBUCIONES SANTANA', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMw2jjbZWMWs9Md--N7-438M3zQfsLtrzQXA&s' },
